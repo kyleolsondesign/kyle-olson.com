@@ -139,7 +139,7 @@ ol li, ul li {
 .section-hero {
 	background-repeat:no-repeat;
 	background-color:#222325;
-	background-image:url(/assets/images/hero_xs.jpg);
+	background-image:url(../images/hero_xs.jpg);
 	background-position:50% 100%;
 	background-size:767px 500px;
 	color:#fff;
@@ -154,7 +154,7 @@ ol li, ul li {
 	   (min-device-pixel-ratio: 1.5) {
 	.no-js .section-hero,
 	.no-lowbandwidth .section-hero {
-		background-image:url(/assets/images/hero_xs@2x.jpg);
+		background-image:url(../images/hero_xs@2x.jpg);
 	}
 }
 
@@ -162,7 +162,7 @@ ol li, ul li {
 	   (min-device-pixel-ratio: 2.5) {
 	.no-js .section-hero,
 	.no-lowbandwidth .section-hero {
-		background-image:url(/assets/images/hero_xs@3x.jpg);
+		background-image:url(../images/hero_xs@3x.jpg);
 	}
 }
 
@@ -207,7 +207,7 @@ ol li, ul li {
 
 	.section-hero {
 		background-color:#1f2328;
-		background-image:url(/assets/images/hero_s.jpg);
+		background-image:url(../images/hero_s.jpg);
 		background-position:50% 100%;
 		background-size:992px 462px;
 		padding-bottom:200px;
@@ -218,7 +218,7 @@ ol li, ul li {
 	   (min-device-pixel-ratio: 1.5) and (min-width:768px) {
 	.no-js .section-hero,
 	.no-lowbandwidth .section-hero {
-		background-image:url(/assets/images/hero_s@2x.jpg);
+		background-image:url(../images/hero_s@2x.jpg);
 	}
 }
 
@@ -226,7 +226,7 @@ ol li, ul li {
 /* medium */
 @media (min-width:992px) {
 	.section-hero {
-		background-image:url(/assets/images/hero.jpg);
+		background-image:url(../images/hero.jpg);
 		background-position:50% 0;
 		background-size:1440px 635px;
 		padding-bottom:86px;
@@ -238,7 +238,7 @@ ol li, ul li {
 	   (min-device-pixel-ratio: 1.5) and (min-width:992px) {
 	.no-js .section-hero,
 	.no-lowbandwidth .section-hero {
-		background-image:url(/assets/images/hero@2x.jpg);
+		background-image:url(../images/hero@2x.jpg);
 	}
 }
 
