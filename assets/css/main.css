@@ -56,7 +56,13 @@ h3 {
 }
 
 h4 {
+	margin-top:4em;
 	font-size:1em;
+	line-height:1.5;
+}
+
+h3 + h4 {
+	margin-top:0;
 }
 
 h4, p {
@@ -69,6 +75,7 @@ ol, ul {
 }
 
 ol li, ul li {
+	line-height:1.5;
 	margin-bottom:1.3333em;
 }
 
@@ -86,6 +93,7 @@ ol li, ul li {
 	font-size:1.1em;
 	line-height:1.5;
 	margin-bottom:1em;
+	text-align:center;
 }
 
 .lead:last-child {
@@ -130,6 +138,10 @@ ol li, ul li {
 .section-footer li:last-child,
 .byline li {
 	margin-bottom:0;
+}
+
+.byline li {
+	line-height:1.15;
 }
 
 .byline a {
