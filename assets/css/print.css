@@ -1,1 +1,26 @@
-.no-print { display: none; }
+.no-print {
+	display:none;
+}
+
+.print-only {
+	display:initial;
+}
+
+h2 {
+	margin-bottom:0.3em;
+}
+
+h3 {
+	margin-top:0.75em;
+	margin-bottom:0.3em;
+}
+
+h4 {
+	font-weight:bold;
+}
+
+.section, .section-dark, .section-hero {
+	margin-top:36px;
+	padding-top:0;
+	padding-bottom:0;
+}

@@ -3,6 +3,7 @@ body {
 	color:#000;
 	font-size:18px;
 	line-height:1.3333;
+	padding-bottom:15px;
 }
 
 em {
@@ -79,6 +80,20 @@ ol li, ul li {
 	margin-bottom:1.3333em;
 }
 
+li ol, li ul {
+	margin-top:1em;
+	padding-left:1.5em;
+	list-style:circle;
+}
+
+li ol li, li ul li {
+	margin-bottom:0.5em;
+}
+
+.print-only {
+	display:none;
+}
+
 .main {
 	min-width:320px;
 }
@@ -131,8 +146,16 @@ ol li, ul li {
 	color:#fff;
 }
 
+.section-centered {
+	text-align:center;
+}
+
 .byline {
 	margin-bottom:0;
+}
+
+.last-updated {
+	line-height:2;
 }
 
 .section-footer li:last-child,
@@ -237,6 +260,10 @@ ol li, ul li {
 
 /* medium */
 @media (min-width:992px) {
+	body {
+		padding-bottom:36px;
+	}
+
 	.section-hero {
 		background-image:url(../images/hero.jpg);
 		background-position:50% 0;
